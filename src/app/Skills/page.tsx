@@ -1,0 +1,61 @@
+'use client';
+import React from 'react'
+
+const page = () => {
+    return (
+        <>
+            <section id="skills" className="skills section light-background">
+                <div className="container section-title">
+                    <h2>Skills</h2>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+                <div className="container">
+                    <div className="row skills-content skills-animation">
+                        <div className="col-lg-6">
+                            <div className="progress">
+                                <span className="skill"><span>HTML</span> <i className="val">100%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                </div>
+                            </div>
+                            <div className="progress">
+                                <span className="skill"><span>CSS</span> <i className="val">90%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                </div>
+                            </div>
+                            <div className="progress">
+                                <span className="skill"><span>JavaScript</span> <i className="val">75%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-6">
+                            <div className="progress">
+                                <span className="skill"><span>PHP</span> <i className="val">80%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                </div>
+                            </div>
+                            <div className="progress">
+                                <span className="skill"><span>WordPress/CMS</span> <i className="val">90%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                </div>
+                            </div>
+                            <div className="progress">
+                                <span className="skill"><span>Photoshop</span> <i className="val">55%</i></span>
+                                <div className="progress-bar-wrap">
+                                    <div className="progress-bar" role="progressbar" aria-valuenow={100} aria-valuemin={0} aria-valuemax={100}></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
+
+export default page
