@@ -8,63 +8,61 @@ const page = () => {
                 <div className="container section-title">
                     <h2 className="text-3xl font-bold mb-4">About</h2>
                     <p className="text-gray-700">
-                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
+                        Hi, I’m Zoheb Khan, a Front-End Developer skilled in HTML, CSS, JavaScript, React.js, Next.js, tailwind css and Bootstrap. I focus on building clean, responsive, and user-friendly web interfaces that work seamlessly across devices. Passionate about design, performance, and modern UI trends, I enjoy turning ideas into polished digital experiences and collaborating with teams to bring creative projects to life.
                     </p>
                 </div>
                 <div className="p-4 md:p-8">
                     <div className="flex flex-col md:flex-row justify-start items-start gap-4">
                         <div className="w-full md:w-1/3">
                             <img
-                                src="assets/img/my-profile-img.jpg"
+                                src="assets/img/Myimgs/zoheb.jpg"
                                 alt=""
                                 className="w-full h-auto rounded-md shadow"
                             />
                         </div>
                         <div className="w-full md:w-2/3">
                             <h2 className="text-xl md:text-2xl font-semibold mt-4 md:mt-0">
-                                UI/UX Designer &amp; Web Developer.
+                                UI Designer &amp; Web Developer.
                             </h2>
                             <p className="fst-italic py-3">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.
+                                Crafting visually appealing, responsive, and user-friendly web interfaces using modern design principles and front-end technologies.
                             </p>
                             <div className="row g-4">
                                 <div className="col-lg-6">
                                     <ul className="list-unstyled">
-                                        <li className="mb-2">
+                                        {/* <li className="mb-2">
                                             <i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span>
-                                        </li>
-                                        <li className="mb-2">
+                                        </li> */}
+                                        {/* <li className="mb-2">
                                             <i className="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span>
-                                        </li>
+                                        </li> */}
                                         <li className="mb-2">
-                                            <i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span>
+                                            <i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 9970538128</span>
                                         </li>
-                                        <li className="mb-2">
+                                        {/* <li className="mb-2">
                                             <i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 <div className="col-lg-6">
                                     <ul className='list-unstyled'>
-                                        <li className='mb-2'>
+                                        {/* <li className='mb-2'>
                                             <i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span>
-                                        </li>
-                                        <li className='mb-2'>
+                                        </li> */}
+                                        {/* <li className='mb-2'>
                                             <i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span>
-                                        </li>
+                                        </li> */}
                                         <li className='mb-2'>
-                                            <i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span>
+                                            <i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>zoheb.khan3006@gmail.com</span>
                                         </li>
-                                        <li className='mb-2'>
+                                        {/* <li className='mb-2'>
                                             <i className="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
                             <p className="py-3">
-                                Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                                Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
+                                Blending design and code to build smooth, responsive, and engaging web experiences.
                             </p>
                         </div>
                     </div>
