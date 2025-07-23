@@ -10,7 +10,7 @@ const Header = () => {
                 <div className="profile-img">
                     <img src="assets/img/Myimgs/zohebkhan1.jpg" alt='' className="img-fluid rounded-circle" />
                 </div>
-                <a href="index.html" className="logo d-flex align-items-center justify-content-center">
+                <a href="/" className="logo d-flex align-items-center justify-content-center">
                     <h1 className="sitename">Zoheb khan</h1>
                 </a>
                 <div className="social-links text-end">
@@ -19,7 +19,7 @@ const Header = () => {
                 <nav id="navmenu" className="navmenu">
                     <ul>
                         <li><a href="#hero" className="active"><i className="bi bi-house navicon" />Home</a></li>
-                        <li><a href="#about"><i className="bi bi-person navicon" /> About</a></li>
+                        <li><a href="/About"><i className="bi bi-person navicon" /> About</a></li>
                         <li><a href="#resume"><i className="bi bi-file-earmark-text navicon" /> Resume</a></li>
                         <li><a href="#portfolio"><i className="bi bi-images navicon" /> Portfolio</a></li>
                         <li><a href="#services"><i className="bi bi-hdd-stack navicon" /> Services</a></li>
